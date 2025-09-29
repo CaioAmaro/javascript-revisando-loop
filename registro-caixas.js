@@ -17,3 +17,13 @@ Caixa danificada, ignorada.
 Caixa processada: 3
 Caixa processada: 7
 Limite de caixas processadas atingido! */
+
+const caixas = [12, -1, 8, 0, -5, 3, 7, 14]
+
+for(caixa of caixas){
+    if(caixa <= 0){
+        console.log('Caixa danificada, ignorada.')
+    }else{
+        console.log('Caixa processada: ', caixa)
+    }
+}
